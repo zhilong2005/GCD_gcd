@@ -120,7 +120,8 @@
 				TargetAttributes = {
 					1E4C48CC1E41E71F00A13FC3 = {
 						CreatedOnToolsVersion = 7.3.1;
-						DevelopmentTeam = FA39NKR8BT;
+						DevelopmentTeam = 56JAM34B5U;
+						ProvisioningStyle = Manual;
 					};
 				};
 			};
@@ -276,11 +277,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = FA39NKR8BT;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				DEVELOPMENT_TEAM = 56JAM34B5U;
 				INFOPLIST_FILE = GCD_gcd/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "-.GCD-gcd";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fosun.wallet.pay;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "366c232c-d93e-4a2f-a035-b02b25861ad8";
+				PROVISIONING_PROFILE_SPECIFIER = FXDistribution;
 			};
 			name = Debug;
 		};
@@ -288,11 +292,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = FA39NKR8BT;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				DEVELOPMENT_TEAM = 56JAM34B5U;
 				INFOPLIST_FILE = GCD_gcd/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "-.GCD-gcd";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fosun.wallet.pay;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "366c232c-d93e-4a2f-a035-b02b25861ad8";
+				PROVISIONING_PROFILE_SPECIFIER = FXDistribution;
 			};
 			name = Release;
 		};
