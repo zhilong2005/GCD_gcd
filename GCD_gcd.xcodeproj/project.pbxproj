@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1792E7511F1D0A110011DAF1 /* Loin.m in Sources */ = {isa = PBXBuildFile; fileRef = 1792E7501F1D0A110011DAF1 /* Loin.m */; };
 		1E4C48D21E41E71F00A13FC3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E4C48D11E41E71F00A13FC3 /* main.m */; };
 		1E4C48D51E41E72000A13FC3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E4C48D41E41E72000A13FC3 /* AppDelegate.m */; };
 		1E4C48D81E41E72000A13FC3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E4C48D71E41E72000A13FC3 /* ViewController.m */; };
@@ -17,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1792E74F1F1D0A110011DAF1 /* Loin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Loin.h; sourceTree = "<group>"; };
+		1792E7501F1D0A110011DAF1 /* Loin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Loin.m; sourceTree = "<group>"; };
 		1E4C48CD1E41E71F00A13FC3 /* GCD_gcd.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GCD_gcd.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E4C48D11E41E71F00A13FC3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		1E4C48D31E41E72000A13FC3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -72,6 +75,8 @@
 				1E4C48D01E41E71F00A13FC3 /* Supporting Files */,
 				1E4C48E81E42028F00A13FC3 /* GCDSingle.h */,
 				1E4C48E91E42028F00A13FC3 /* GCDSingle.m */,
+				1792E74F1F1D0A110011DAF1 /* Loin.h */,
+				1792E7501F1D0A110011DAF1 /* Loin.m */,
 			);
 			path = GCD_gcd;
 			sourceTree = "<group>";
@@ -154,6 +159,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1792E7511F1D0A110011DAF1 /* Loin.m in Sources */,
 				1E4C48D81E41E72000A13FC3 /* ViewController.m in Sources */,
 				1E4C48D51E41E72000A13FC3 /* AppDelegate.m in Sources */,
 				1E4C48EA1E42028F00A13FC3 /* GCDSingle.m in Sources */,
@@ -306,6 +312,7 @@
 				1E4C48E61E41E72000A13FC3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
