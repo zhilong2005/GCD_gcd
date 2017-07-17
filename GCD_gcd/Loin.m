@@ -9,15 +9,5 @@
 #import "Loin.h"
 
 @implementation Loin
-+(instancetype)instance{
-    static dispatch_once_t onceToken;
-    static Loin *single = nil;
-    
-    dispatch_once(&onceToken, ^{
-        NSLog(@"init the GCDSingle");
-        single  = [[Loin alloc]init];
-    });
-    return single;
-}
 
 @end
