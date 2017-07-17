@@ -10,5 +10,5 @@
 
 @interface Loin : NSObject
 +(instancetype)instance;
-
+-(void)pass1;
 @end
